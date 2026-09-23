@@ -1,7 +1,6 @@
 class Argus < Formula
   desc "Go API gateway and session proxy for OpenAI-compatible agent traffic"
   homepage "https://github.com/nasimubd/Argus"
-  version "1.18.0"
   license "LGPL-3.0-only"
 
   on_macos do
