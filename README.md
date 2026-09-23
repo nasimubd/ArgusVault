@@ -17,3 +17,5 @@ brew install nasimubd/argus/argus
 ```
 
 The formula installs `argus` and the `argus-codex` wrapper. Argus uses embedded SQLite, so this tap does not require PostgreSQL, Redis, or a separate SQLite service.
+
+Release archives are mirrored into this public tap so Homebrew can download them without access to the private Argus source repository. The formula version and SHA-256 values are updated with each Argus release.
