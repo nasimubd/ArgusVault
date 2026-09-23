@@ -5,21 +5,21 @@ class Argus < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.1/argus_1.18.1_darwin_arm64.tar.gz"
-      sha256 "707aea0bccf05c280c8c6a6ad58f44757169569fb22ce12142edb55bdf4e36e7"
+      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.2/argus_1.18.2_darwin_arm64.tar.gz"
+      sha256 "887463dd97d468f83cc4554b4fe82b5e587e2fa5d94529b32faa4507dc43b601"
     else
-      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.1/argus_1.18.1_darwin_amd64.tar.gz"
-      sha256 "89cca7c83d56a5ea0db63d6ba430fe38bf62d418ca40ad59abbe0097379d762c"
+      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.2/argus_1.18.2_darwin_amd64.tar.gz"
+      sha256 "20f884b200b52ff21cfe672919d08c9dde6c77b6fa00c32087bb59b169ef7e39"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.1/argus_1.18.1_linux_arm64.tar.gz"
-      sha256 "2c1910368eb91db3240f3d17edfcd519e8634cb1143edeaff8f88a2fff8b5616"
+      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.2/argus_1.18.2_linux_arm64.tar.gz"
+      sha256 "09c3af02f13ace1cb13dd977bca6c10591903c55c1f71b99cb608db28f83d747"
     else
-      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.1/argus_1.18.1_linux_amd64.tar.gz"
-      sha256 "cb180fdbbc5dd84d32403afdd36c0eb22ea1b5e3fec16bfa818592842c7c0102"
+      url "https://github.com/nasimubd/homebrew-argus/releases/download/v1.18.2/argus_1.18.2_linux_amd64.tar.gz"
+      sha256 "a2d2c68e30cce476a54bf0ad48792fd01d97257a8cd4f1497a3c1335f3413a5c"
     end
   end
 
