@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use ArgusVault, please cite it as below."
+type: software
+authors:
+  - family-names: NASIM
+    given-names: MD
+title: "ArgusVault: Public binaries and Homebrew distribution for Argus"
+url: "https://github.com/nasimubd/homebrew-argus"
+repository-code: "https://github.com/nasimubd/homebrew-argus"
+license: LGPL-3.0-only
