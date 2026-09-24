@@ -14,7 +14,7 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-release_history-FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org/)
 [![Mise](https://img.shields.io/badge/Mise-release_tooling-111827?logo=mise&logoColor=white)](https://mise.jdx.dev/)
 [![GoReleaser](https://img.shields.io/badge/GoReleaser-platform_archives-5E5CE6?logo=go&logoColor=white)](https://goreleaser.com/)
-[![LGPL-3.0](https://img.shields.io/badge/License-LGPL--3.0-blue?logo=gnu&logoColor=white)](LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary-blue?logo=github&logoColor=white)](LICENSE)
 
 [Install](#install) · [Platforms](#platforms-and-verification) · [Get started](#get-started) · [Releases](#releases-and-integrity) · [Support](#support) · [Citation](#cite-argusvault)
 
@@ -86,7 +86,7 @@ All six archives are present in the [latest published release](https://github.co
 
 | OS and CPU | Available installation paths | Verified version and scope | Field status |
 | --- | --- | --- | --- |
-| macOS Apple Silicon | Homebrew, script, archive | v1.18.2: installer, binary launch, and `argus --version` on macOS ARM64 | Local smoke test; broader use not yet battle-tested |
+| macOS Apple Silicon | Homebrew, script, archive | v1.19.0: installer, binary launch, and `argus --version` on macOS ARM64 | Local smoke test; broader use not yet battle-tested |
 | macOS Intel | Homebrew, script, archive | Archive published; installation not tested on Intel hardware | Not yet battle-tested |
 | Linux ARM64 | Homebrew, script, archive | Archive published; installation not tested on Linux ARM64 hardware | Not yet battle-tested |
 | Linux x64 | Homebrew, script, archive | Archive published; installation not tested on Linux x64 hardware | Not yet battle-tested |
@@ -142,4 +142,4 @@ Use GitHub's **Cite this repository** menu, backed by [`CITATION.cff`](CITATION.
 }
 ```
 
-Argus is distributed under the [GNU Lesser General Public License v3.0](LICENSE).
+Argus releases beginning with v1.19.0 use the [Argus Binary Use License](LICENSE). The withdrawn v1.18.x releases are no longer offered by ArgusVault. Third-party dependencies retain their own licenses.
