@@ -82,7 +82,7 @@ argus login
 argus-codex
 ```
 
-`argus login` opens a fresh browser sign-in and starts the local gateway after account setup; no `serve` command is needed. Run it again to add another account. `argus-codex` launches the separately installed Codex CLI with the Argus endpoint configured. On first use, it warns about full bypass mode and offers normal mode immediately. Use `argus-codex --normal` to switch to normal mode later. Argus includes embedded SQLite, so no PostgreSQL, Redis, or separate SQLite server is required.
+`argus login` starts browser account setup and launches the local gateway afterward; no `serve` command is needed. Run it again to add another account. `argus-codex` launches the separately installed Codex CLI with the Argus endpoint configured. Argus includes embedded SQLite, so no PostgreSQL, Redis, or separate SQLite server is required.
 
 ## Releases and integrity
 
