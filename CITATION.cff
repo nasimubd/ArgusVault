@@ -4,7 +4,7 @@ type: software
 authors:
   - family-names: NASIM
     given-names: MD
-title: "ArgusVault: Public binaries and Homebrew distribution for Argus"
-url: "https://github.com/nasimubd/homebrew-argus"
-repository-code: "https://github.com/nasimubd/homebrew-argus"
+title: "ArgusVault: Cross-platform binaries and installation for Argus"
+url: "https://github.com/nasimubd/ArgusVault.git"
+repository-code: "https://github.com/nasimubd/ArgusVault.git"
 license: LGPL-3.0-only
