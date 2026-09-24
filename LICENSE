@@ -1,28 +1,69 @@
-ARGUS BINARY USE LICENSE
+ARGUS BINARY DISTRIBUTION LICENSE (ABD-1.0)
 Version 1.0 — 24 September 2026
 
 Copyright (c) 2026 MD NASIM. All rights reserved.
 
-1. Permission. You may download, install, execute, and make reasonable backup
-copies of unmodified official Argus binaries and installers for personal or
-internal business use.
+1. Scope
 
-2. Restrictions. Except where applicable law expressly permits otherwise, you
-may not redistribute, sublicense, sell, rent, modify, or create derivative
-works from Argus binaries; remove notices; reverse engineer, decompile, or
-disassemble Argus; or use Argus marks to imply endorsement. This license does
-not grant access to Argus source code.
+This license applies to Argus versions first released under ABD-1.0, beginning
+with v1.19.2, and to the official Argus binaries, installers, checksums, and
+binary distribution materials for those versions. Earlier Argus versions keep
+the license supplied with those versions. This license does not withdraw or
+change rights already granted for earlier versions.
 
-3. Third-party components. Argus includes third-party components governed by
-their own licenses and notices. Those rights remain unchanged and take
-precedence where required.
+2. Limited grant
 
-4. Termination. This permission ends on a material breach. Stop using Argus
-and delete copies under your control, except copies retained by law.
+Subject to this license, the copyright holder grants you a personal,
+non-exclusive, non-transferable, worldwide license to download, install,
+execute, and make reasonable backup copies of unmodified official Argus
+binaries and installers for your personal use or your organization's internal
+business operations. This license grants no ownership interest and no right to
+access, receive, or request Argus source code.
 
-5. Disclaimer and liability. Argus is provided “AS IS” without warranties to
-the extent permitted by law. To the extent permitted by law, the copyright
-holder is not liable for indirect, incidental, special, consequential, or
-punitive damages. Nothing excludes liability that cannot lawfully be excluded.
+3. Restrictions
+
+Except where applicable law expressly permits otherwise, you must not:
+
+- redistribute, publish, sublicense, sell, rent, lease, lend, or provide Argus
+  or any Argus binary service to another person;
+- modify, adapt, translate, patch, or create derivative works from Argus;
+- remove or obscure copyright, license, security, or provenance notices;
+- reverse engineer, decompile, disassemble, or attempt to discover source code
+  or non-public interfaces; or
+- use the Argus name, marks, or release materials to imply sponsorship or
+  endorsement without written permission.
+
+The restrictions in this section do not limit rights that cannot lawfully be
+restricted, including applicable statutory exceptions.
+
+4. Third-party components
+
+Argus contains third-party components. The license and notices for each such
+component govern that component and take precedence where required. This
+license does not restrict rights granted by a third-party license or by
+applicable law. The official distribution includes or makes available the
+applicable third-party notices separately from the Argus binary.
+
+5. Termination
+
+This license terminates automatically upon a material breach. After
+termination, you must stop using Argus and delete copies under your control,
+except copies that you must retain by law. Rights granted independently by
+applicable law or third-party licenses remain unaffected.
+
+6. Disclaimer
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, ARGUS IS PROVIDED “AS IS” WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT.
+
+7. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE
+FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE
+DAMAGES, OR LOSS OF DATA, PROFITS, OR BUSINESS, ARISING FROM THIS LICENSE OR
+USE OF ARGUS. Nothing in this license excludes liability that cannot lawfully
+be excluded.
 
 For licensing questions, contact nasimubd21@gmail.com.
