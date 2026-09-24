@@ -1,5 +1,5 @@
 [CmdletBinding()]
-param([string]$Repository = "nasimubd/homebrew-argus", [string]$InstallDir = "$env:LOCALAPPDATA\Argus\bin")
+param([string]$Repository = "nasimubd/ArgusVault", [string]$InstallDir = "$env:LOCALAPPDATA\Argus\bin")
 $ErrorActionPreference = "Stop"
 $release = Invoke-RestMethod -Uri "https://api.github.com/repos/$Repository/releases/latest"
 $version = $release.tag_name.TrimStart("v")

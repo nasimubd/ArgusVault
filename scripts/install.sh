@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-repo="${ARGUS_REPOSITORY:-nasimubd/homebrew-argus}"
+repo="${ARGUS_REPOSITORY:-nasimubd/ArgusVault}"
 api="https://api.github.com/repos/${repo}/releases/latest"
 api_json="$(curl --fail --silent --show-error --location --retry 3 "$api")"
 tag="$(printf '%s' "$api_json" | sed -nE 's/.*"tag_name"[[:space:]]*:[[:space:]]*"([^"]+)".*/\1/p' | head -n1)"
