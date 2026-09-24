@@ -86,7 +86,7 @@ All six archives are present in the [latest published release](https://github.co
 
 | OS and CPU | Available installation paths | Verified version and scope | Field status |
 | --- | --- | --- | --- |
-| macOS Apple Silicon | Homebrew, script, archive | v1.19.1: installer, binary launch, and `argus --version` on macOS ARM64 | Local smoke test; broader use not yet battle-tested |
+| macOS Apple Silicon | Homebrew, script, archive | v1.19.2: installer, binary launch, and `argus --version` on macOS ARM64 | Local smoke test; broader use not yet battle-tested |
 | macOS Intel | Homebrew, script, archive | Archive published; installation not tested on Intel hardware | Not yet battle-tested |
 | Linux ARM64 | Homebrew, script, archive | Archive published; installation not tested on Linux ARM64 hardware | Not yet battle-tested |
 | Linux x64 | Homebrew, script, archive | Archive published; installation not tested on Linux x64 hardware | Not yet battle-tested |
@@ -142,4 +142,4 @@ Use GitHub's **Cite this repository** menu, backed by [`CITATION.cff`](CITATION.
 }
 ```
 
-Argus releases beginning with v1.19.0 use the [Argus Binary Use License](LICENSE). The withdrawn v1.18.x releases are no longer offered by ArgusVault. Third-party dependencies retain their own licenses.
+Argus releases beginning with v1.19.2 use the [Argus Binary Distribution License (ABD-1.0)](LICENSE). The withdrawn v1.18.x releases are no longer offered by ArgusVault. Third-party dependencies retain their own licenses.

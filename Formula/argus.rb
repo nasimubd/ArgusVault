@@ -5,21 +5,21 @@ class Argus < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.1/argus_1.19.1_darwin_arm64.tar.gz"
-      sha256 "07106d8a3723dff0cda6e6e69531dad41f8b5c445901952db54abe248e292284"
+      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.2/argus_1.19.2_darwin_arm64.tar.gz"
+      sha256 "4507ee9c06ec6fe7de672cac93a9b442f7c5a37a12d771af0b271de1e41acce7"
     else
-      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.1/argus_1.19.1_darwin_amd64.tar.gz"
-      sha256 "d15499c2a58d12c841e0e004591201003d14338f3df834fcfbe1e95fab12bcb9"
+      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.2/argus_1.19.2_darwin_amd64.tar.gz"
+      sha256 "0fc0b731524df57a917458e9f35901ecd0b2e29d22c211bafcb3a5c257a7f420"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.1/argus_1.19.1_linux_arm64.tar.gz"
-      sha256 "d18a5a11db1833acfb6c0bc602d57f9a12229f4b13bb7dc08a4f9e0efb8aae59"
+      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.2/argus_1.19.2_linux_arm64.tar.gz"
+      sha256 "8ab5068f90d9c870f3018d8bc570f503c73073179da926fe80df1df17685d78d"
     else
-      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.1/argus_1.19.1_linux_amd64.tar.gz"
-      sha256 "8f13f3d6da90bfc00c05bdb22a4e50c0339cfc03ecf567f1674d5beaac56546a"
+      url "https://github.com/nasimubd/ArgusVault/releases/download/v1.19.2/argus_1.19.2_linux_amd64.tar.gz"
+      sha256 "16b0e01a5909d52e462d8f002b75918956ebcdeb2d4f36c9ef937315633d4595"
     end
   end
 
