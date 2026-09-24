@@ -11,3 +11,5 @@ the public binary release tag.
 
 The empty tag is an artifact index, not a source distribution. The private
 Argus repository remains the source of truth for builds.
+
+Latest binary artifact index: v1.19.2.
