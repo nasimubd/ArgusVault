@@ -1,28 +1,5 @@
-# Binary release convention
+# Release history
 
-ArgusVault distributes Argus executables for supported operating systems. GitHub
-creates `Source code (zip)` and `Source code (tar.gz)` links for every release
-tag. Those generated archives must not contain the repository metadata tree.
+ArgusVault is retired as a public distribution repository. All versions have moved to the enterprise subscription; no further versions, updates, patches, or new binaries will be published here. Existing releases remain available as historical records.
 
-For each binary release, create the release tag on an empty artifact commit and
-attach only the six platform archives and `checksums.txt`. Keep documentation,
-formulas, and license metadata on `main`; do not use a normal `main` commit as
-the public binary release tag.
-
-The empty tag is an artifact index, not a source distribution. The private
-Argus repository remains the source of truth for builds.
-
-Latest binary artifact index: v1.25.2.
-
-## Publishing from the private source release
-
-Run the publisher from this checkout after building `dist/` locally:
-
-```sh
-ARGUS_DIST_DIR=/path/to/Argus/dist python3 scripts/release/publish_from_private.py
-```
-
-The publisher derives the version from the latest private Argus release, checks
-all six archives and checksums before creating an empty artifact tag, and records
-the artifact index with the semantic-release-bot identity. Do not tag a normal
-source commit in this repository: public binary tag source archives must be empty.
+Installation and future releases require collaborator access to the private [nasimubd/Argus](https://github.com/nasimubd/Argus) repository. Contact **MD NASIM** at **nasimubd21@gmail.com** for access.
