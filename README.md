@@ -24,7 +24,7 @@
 
 All Argus versions have moved to our enterprise subscription. This public repository is retired and will no longer publish versions, updates, patches, or new binaries for public users. Existing public artifacts are retained for historical integrity only.
 
-Installation has moved to the private [`nasimubd/Argus`](https://github.com/nasimubd/Argus) repository. Collaborator access is required for every future installation and release download. Please contact **MD NASIM** at **[nasimubd21@gmail.com](mailto:nasimubd21@gmail.com)** if you need access.
+Installation has moved to the private [`nasimubd/Argus`](https://github.com/nasimubd/Argus) repository. Collaborator access is required for every future installation and release download. Please contact **MD NASIM** at **[md.nasim@epatner.com](mailto:md.nasim@epatner.com)** or **[nasimubd21@gmail.com](mailto:nasimubd21@gmail.com)** if you need access.
 
 ## Sponsor
 
